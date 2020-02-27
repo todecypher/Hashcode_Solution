@@ -1,7 +1,7 @@
 #include"bits/stdc++.h"
 using namespace std;
 #define in freopen("f_libraries_of_the_world.txt","r",stdin);
-#define out freopen("f_libraries_of_the_world_out.txt","w",stdout);
+#define out freopen("f_libraries_of_the_world_out.txt","w",stdout);A
 #define io in out 
 using ll = long long;
 //a_example
@@ -48,7 +48,7 @@ bool comp(library& a , library& b){
 					return 1;
 				}
 			else
-				return maxi(a.books) < maxi(b.books);
+				return maxi(a.books) > maxi(b.books);
 			
 		}
 		else{
