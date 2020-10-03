@@ -9,7 +9,6 @@ using ll = long long;
 //c_incunabula
 //d_tough_choices
 //e_so_many_books
-//f_libraries_of_the_world
 
 
 ll n_library , n_books, n_days;
